@@ -1,0 +1,36 @@
+.interna-sobre {
+  background: url("/img/bg-sobre.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* História e Valores */
+
+.missao-sobre {
+  padding-top: 40px;
+}
+
+.missao-sobre .subtitulo {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.missao-sobre .subtitulo:after {
+  margin: 8px 0;
+}
+
+.missao-sobre p {
+  margin-bottom: 1em;
+  padding-right: 40px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.missao-sobre ul li ul li {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.foto-equipe {
+  padding-top: 20px;
+}

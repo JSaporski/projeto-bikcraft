@@ -1,0 +1,184 @@
+.interna-produtos {
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.produto_item {
+  padding-top: 60px;
+}
+
+.produto_item h2 {
+  margin-bottom: -56px;
+  position: relative;
+  top: -180px;
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.produto_item h2:after,
+.produto_item h2:before {
+  width: 60px;
+  height: 3px;
+  display: block;
+  margin: 6px auto 8px auto;
+  content: "";
+  background: #fff;
+}
+
+.produto_icone {
+  padding: 70px 0;
+  background: #000;
+}
+
+.produto_icone img {
+  margin: 0 auto;
+}
+
+.produto_info {
+  background: #000;
+}
+
+.produto_info p {
+  height: 180px;
+  padding: 30px 40px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.produto_info ul li {
+  width: 229px;
+  height: 49px;
+  float: left;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  background: #fec63e;
+}
+
+.produto_info ul li:nth-child(even) {
+  margin-left: 2px;
+}
+
+.produto_info ul li:nth-child(1),
+.produto_info ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
+
+/* Formulário */
+
+.subtitulo {
+  margin-bottom: 45px;
+}
+
+.orcamento {
+  margin-top: 60px;
+  color: #fff;
+}
+
+#form-orcamento {
+  padding-right: 60px;
+}
+
+#form-orcamento label {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#form-orcamento input,
+#form-orcamento textarea {
+  display: block;
+  width: 100%;
+  margin: 5px 0 15px;
+  padding: 5px 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  border: solid 4px #fec63e;
+  background: none;
+  outline: none;
+}
+
+#form-orcamento input {
+  height: 40px;
+}
+
+#form-orcamento textarea {
+  height: 120px;
+}
+
+#form-orcamento button {
+  margin-top: 15px;
+  padding: 10px 40px;
+  color: #fec63e;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: solid 3px #fec63e;
+  background: none;
+  outline: none;
+}
+
+#form-orcamento button:hover {
+  color: #fff;
+  cursor: pointer;
+  border-color: #fff;
+}
+
+.dados_bik span {
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.dados_email {
+  margin-bottom: 30px;
+}
+
+.dados_bik {
+  color: #fff;
+}
+
+.dados_bik h3 {
+  margin-bottom: 10px;
+  color: #fec63e;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dados_bik p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.dados_bik ul li {
+  max-width: 400px;
+  padding: 7px 0 7px 15px;
+}
+
+.dados_bik ul li,
+.dados_bik p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.dados_bik ul li:nth-child(odd) {
+  background: #1d1d1d;
+}
